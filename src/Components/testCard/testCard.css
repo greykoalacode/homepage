@@ -1,0 +1,33 @@
+.card{
+    width:500px;
+    height: auto;
+    padding: 1em;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width:250px;
+    height: auto;
+    align-self: center;
+}
+
+.topCoders {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.anch{
+    text-decoration: none;
+    color: black;
+}
+
+.anch:hover {
+    text-decoration: underline;
+}

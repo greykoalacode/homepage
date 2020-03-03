@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,QAAQ,CAAC;EANL,OAAO,EAAE,IAAI;EACb,cAAc,EAMA,MAAM;EALpB,eAAe,EAKO,MAAM;EAJ5B,WAAW,EAImB,MAAM;CACvC;;AACD,AAAA,UAAU,CAAA;EATN,OAAO,EAAE,IAAI;EACb,cAAc,EASA,MAAM;EARpB,eAAe,EAQM,MAAM;EAP3B,WAAW,EAOiB,MAAM;CACrC",
+    "sources": [
+        "TopperList.scss"
+    ],
+    "names": [],
+    "file": "TopperList.css"
+}

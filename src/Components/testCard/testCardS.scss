@@ -1,0 +1,61 @@
+@import "../Card/TopperList.scss";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.card {
+  width: 500px;
+  height: auto;
+  padding: 1em;
+  // border-radius: 2em;
+  transition: all ease-in-out 0.2s;
+
+  &:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  // @include flex(column, center, center);
+}
+
+body {
+  padding: 0.5em;
+  @include flex(column, center, center);
+  font-family: "Roboto", sans-serif;
+}
+
+.tc {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+}
+
+.image {
+  width: 250px;
+  height: auto;
+  align-self: center;
+}
+
+.topCoders {
+  @include flex(row, center, center);
+  width: 100%;
+}
+
+.topperOL {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+
+.anch {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
