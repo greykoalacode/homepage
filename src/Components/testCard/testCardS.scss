@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 .card {
-  width: 500px;
+  width: 45em;
   height: auto;
   padding: 1em;
   // border-radius: 2em;
@@ -43,6 +43,9 @@ h2 {
 .topCoders {
   @include flex(row, center, center);
   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0.4rem;
 }
 
 .topperOL {
